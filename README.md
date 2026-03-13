@@ -9,9 +9,22 @@ This repository contains a machine learning project aimed at predicting diabetes
 
 ## Visualizations & Exploratory Data Analysis
 As part of the analysis (the pictures outputted in the Jupyter Notebook run), several visualizations were generated to understand the data distribution and relationships:
-- **Age Distribution:** A histogram showing the frequency of different age groups in the dataset.
-- **BMI vs. Blood Glucose Level:** A scatter plot illustrating the relationship between BMI, Blood Glucose, and the presence of diabetes.
-- **Feature Correlation Heatmap:** A Seaborn heatmap displaying how different features are correlated with one another, helping identify the most significant predictors of diabetes.
+
+### Age Distribution
+A histogram showing the frequency of different age groups in the dataset.
+![Age Distribution](images/age_distribution.png)
+
+### BMI vs. Blood Glucose Level
+A scatter plot illustrating the relationship between BMI, Blood Glucose, and the presence of diabetes.
+![BMI vs Blood Glucose](images/bmi_vs_glucose.png)
+
+### Feature Correlation Heatmap
+A Seaborn heatmap displaying how different features are correlated with one another, helping identify the most significant predictors of diabetes.
+![Feature Correlation Heatmap](images/correlation_heatmap.png)
+
+### Model Performance (Confusion Matrix)
+Visualizing the performance of the machine learning models.
+![Model Performance Matrix](images/knn_confusion_matrix.png)
 
 ## Models Implemented
 The following models were coded completely from scratch without fully relying on standard library implementations for their core algorithms:
