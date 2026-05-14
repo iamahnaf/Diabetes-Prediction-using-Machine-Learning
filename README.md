@@ -6,6 +6,7 @@ This repository contains a machine learning project aimed at predicting diabetes
 ## Repository Contents
 - **`Project.ipynb`**: The main Jupyter Notebook. It includes the entire pipeline: importing libraries, loading the data, preprocessing (Label Encoding, Scaling), exploratory data analysis (EDA), model training, and performance evaluation.
 - **`uiu100k.csv`**: The dataset containing 100,000 patient records. Features include age, gender, smoking history, BMI, and blood glucose level.
+- Dataset has been collected from https://www.kaggle.com/code/neerajsolath21071/diabetes-prediction
 
 ## Visualizations & Exploratory Data Analysis
 As part of the analysis (the pictures outputted in the Jupyter Notebook run), several visualizations were generated to understand the data distribution and relationships:
