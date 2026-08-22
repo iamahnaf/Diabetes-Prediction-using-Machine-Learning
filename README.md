@@ -32,6 +32,14 @@ The following models were coded completely from scratch without fully relying on
 - **K-Nearest Neighbors (KNN)**
 - **Logistic Regression**
 
+## Recall Improvement for Diabetes Detection
+Because diabetes cases are the minority class in this dataset, the notebook now uses a recall-focused setup for Logistic Regression:
+- **Stratified train/validation/test split** to preserve class balance across splits.
+- **Class-weighted gradient updates** in scratch Logistic Regression to reduce false negatives.
+- **Validation-based threshold tuning** (instead of a fixed 0.5 threshold) to target higher recall.
+
+This improves the model’s ability to catch diabetic cases, which is critical when recall is the priority.
+
 ## Technologies Used
 - **Python** base language
 - **Pandas & NumPy** for data manipulation and mathematical operations
